@@ -73,7 +73,7 @@ public class UserInterface implements Interface {
 
                     System.out.println("Please, your " + finalCoffee.getDescription() + "!");
                     System.out.println("It costs you " + finalCoffee.produce() + " euros");
-                    System.out.print("How much you pay? (ex. 10 dollar): ");
+                    System.out.print("How much you pay? (ex. 10 usd): ");
                     String[] pay = new Scanner(System.in).nextLine().split(" ");
                     double userAmount = Double.parseDouble(pay[0]);
                     String userCurrency = pay[1];
