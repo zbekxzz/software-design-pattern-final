@@ -61,21 +61,6 @@ public class DBConnection {
         }
         return null;
     }
-    public List<String> selectAllUsers() {
-        try {
-            PreparedStatement preparedStatement = connection.prepareStatement("SELECT username from users");
-            ResultSet resultSet = preparedStatement.executeQuery();
-            List<String> usernames = new ArrayList<>();
-
-            while (resultSet.next()) {
-                String value = resultSet.getString("username");
-                usernames.add(value);
-            }
-            return usernames;
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-    }
 
     public void insertSupplier(Supplier supplier) {
         try {

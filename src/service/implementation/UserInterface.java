@@ -1,16 +1,11 @@
 package service.implementation;
 
 import buns.Coffee;
-import buns.topping.CaramelSyrup;
-import buns.topping.NutSyrup;
-import buns.topping.VanillaSyrup;
-import buns.topping.WhippedCream;
+import buns.topping.*;
 import service.CoffeeFactory;
 import service.Interface;
 import service.factories.*;
-import service.payment.CurrencyAdapter;
-import service.payment.CurrencyConverter;
-import service.payment.PaymentProcessor;
+import service.payment.*;
 
 import java.util.Scanner;
 

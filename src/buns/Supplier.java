@@ -16,21 +16,12 @@ public class Supplier {
     public int getId() {
         return id;
     }
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getNameTag() {
         return nameTag;
     }
-    public void setNameTag(String nameTag) {
-        this.nameTag = nameTag;
-    }
 
     public String getSupplierEmail() {
         return supplierEmail;
-    }
-    public void setSupplierEmail(String supplierEmail) {
-        this.supplierEmail = supplierEmail;
     }
 }

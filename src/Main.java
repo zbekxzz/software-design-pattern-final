@@ -1,10 +1,6 @@
 import buns.Status;
 import buns.User;
-import service.Interface;
-import service.implementation.AdminInterface;
-import service.implementation.Auth;
-import service.implementation.InterfaceProcessor;
-import service.implementation.UserInterface;
+import service.implementation.*;
 
 import java.util.Scanner;
 
